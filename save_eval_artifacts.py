@@ -56,6 +56,25 @@ Explanation: <Explanation>
 # In a real application you would load your dataset from a file or logging tool.
 # Here we have a mix of examples with slightly different phrasing that our quiz application can support
 # and things we don't support.
+# In a real application you would load your dataset from a file or logging tool.
+# Here we have a mix of examples with slightly different phrasing that our quiz application can support
+# and things we don't support. 
+test_dataset = [
+  {"input": "I'm trying to learn about science, can you give me a quiz to test my knowledge",
+   "response": "science",
+   "subjects": ["davinci", "telescope", "physics", "curie"]},
+  {"input": "I'm an geography expert, give a quiz to prove it?",
+   "response": "geography",
+   "subjects": ["paris", "france", "louvre"]},
+   {"input": "Quiz me about Italy",
+   "response": "geography",
+   "subjects": ["rome", "alps", "sicily"]
+   },
+]
+
+
+
+
 dataset = [
     {
         "input": "I'm trying to learn about science, can you give me a quiz to test my knowledge",
